@@ -1,0 +1,4 @@
+[n=2047] c: OK, peak RSS 100016 KiB, wall 285.7s
+[n=2047] java: OK, peak RSS 209600 KiB, wall 523.5s
+[n=2048] c: OK, peak RSS 100108 KiB, wall 322.5s
+[n=2048] java: OK, peak RSS 209396 KiB, wall 517.7s

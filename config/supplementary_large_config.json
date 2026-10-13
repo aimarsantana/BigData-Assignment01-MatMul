@@ -1,0 +1,47 @@
+{
+  "description": "Supplementary experiment B (separate from the main comparison): does the C time-out at n=2048 come from the power-of-two size? One extended-budget probe at n=2047 and n=2048 for C and Java. Same kernel, flags, input generator and timing boundary as the main study; only the budget and repetition count differ, and they are declared here.",
+  "sizes": [
+    2047,
+    2048
+  ],
+  "languages": [
+    "c",
+    "java"
+  ],
+  "numeric_type": "float64 (IEEE-754 binary64)",
+  "measured_repetitions": {
+    "n<=512": 3,
+    "n>512": 3
+  },
+  "warmup_runs": {
+    "c": 0,
+    "java": 1,
+    "python": 0
+  },
+  "batch_per_sample": {
+    "default": 1
+  },
+  "budget": {
+    "max_seconds_per_single_multiplication": 900,
+    "stop_rule": "none (probe)",
+    "memory_budget_peak_rss_bytes": 4000000000
+  },
+  "commands": {
+    "c": [
+      "build/matmul"
+    ],
+    "java": [
+      "java",
+      "-Xms64m",
+      "-Xmx4g",
+      "-XX:+UseSerialGC",
+      "-cp",
+      "build",
+      "MatMul"
+    ],
+    "python": [
+      "python3",
+      "src/python/matmul.py"
+    ]
+  }
+}

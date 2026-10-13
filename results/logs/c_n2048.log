@@ -1,0 +1,2 @@
+/home/claude/A1/build/matmul /home/claude/A1/data/inputs/A_n2048.bin /home/claude/A1/data/inputs/B_n2048.bin 2048 1 5 1
+INFO,c,compiler,gcc 13.3.0

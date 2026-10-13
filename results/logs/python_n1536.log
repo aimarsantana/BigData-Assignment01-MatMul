@@ -1,0 +1,2 @@
+/usr/bin/python3 /home/claude/A1/src/python/matmul.py /home/claude/A1/data/inputs/A_n1536.bin /home/claude/A1/data/inputs/B_n1536.bin 1536 1 5 1
+INFO,python,implementation,CPython

@@ -1,0 +1,19 @@
+{
+  "description": "Supplementary experiment (separate from the main comparison): sensitivity of C and Java to sizes that are / are not powers of two (cache-set conflicts of the strided B[k][j] accesses). Same kernel, flags, inputs generator and timing boundary as the main study.",
+  "sizes": [500, 511, 512, 513, 1000, 1023, 1024, 1025],
+  "languages": ["c", "java"],
+  "numeric_type": "float64 (IEEE-754 binary64)",
+  "measured_repetitions": {"n<=512": 10, "n>512": 5},
+  "warmup_runs": {"c": 1, "java": 3, "python": 1},
+  "batch_per_sample": {"default": 1},
+  "budget": {
+    "max_seconds_per_single_multiplication": 200,
+    "stop_rule": "same as main study",
+    "memory_budget_peak_rss_bytes": 4000000000
+  },
+  "commands": {
+    "c": ["build/matmul"],
+    "java": ["java", "-Xms64m", "-Xmx4g", "-XX:+UseSerialGC", "-cp", "build", "MatMul"],
+    "python": ["python3", "src/python/matmul.py"]
+  }
+}

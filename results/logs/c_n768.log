@@ -1,0 +1,10 @@
+/home/claude/A1/build/matmul /home/claude/A1/data/inputs/A_n768.bin /home/claude/A1/data/inputs/B_n768.bin 768 1 5 1
+INFO,c,compiler,gcc 13.3.0
+INFO,c,cflags,-O2 -std=c11 -Wall -Wextra
+SAMPLE,c,768,warmup,0,1,1458900777.0,-7865.7020353368971
+SAMPLE,c,768,measured,0,1,1218924800.0,-7865.7020353368971
+SAMPLE,c,768,measured,1,1,1230787283.0,-7865.7020353368971
+SAMPLE,c,768,measured,2,1,1285611598.0,-7865.7020353368971
+SAMPLE,c,768,measured,3,1,1124328434.0,-7865.7020353368971
+SAMPLE,c,768,measured,4,1,1266116411.0,-7865.7020353368971
+MEM,c,768,vmhwm_kib,15604

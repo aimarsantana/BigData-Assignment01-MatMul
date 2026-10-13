@@ -1,0 +1,17 @@
+language,n,numeric_type,threads,kind,status,warmup_runs,measured_reps,batch,budget_s_per_multiplication,peak_rss_kib,process_wall_s,exit_code
+c,500,float64,1,benchmark,OK,1,10,1,200,7628,2.071,0
+java,500,float64,1,benchmark,OK,3,10,1,200,55592,3.552,0
+c,511,float64,1,benchmark,OK,1,10,1,200,7892,2.176,0
+java,511,float64,1,benchmark,OK,3,10,1,200,56240,3.642,0
+c,512,float64,1,benchmark,OK,1,10,1,200,7912,4.219,0
+java,512,float64,1,benchmark,OK,3,10,1,200,56244,3.577,0
+c,513,float64,1,benchmark,OK,1,5,1,200,7940,1.269,0
+java,513,float64,1,benchmark,OK,3,5,1,200,55796,2.35,0
+c,1000,float64,1,benchmark,OK,1,5,1,200,25220,23.452,0
+java,1000,float64,1,benchmark,OK,3,5,1,200,88024,75.323,0
+c,1023,float64,1,benchmark,OK,1,5,1,200,26312,28.61,0
+java,1023,float64,1,benchmark,OK,3,5,1,200,96112,88.692,0
+c,1024,float64,1,benchmark,OK,1,5,1,200,26360,22.991,0
+java,1024,float64,1,benchmark,OK,3,5,1,200,96096,80.616,0
+c,1025,float64,1,benchmark,OK,1,5,1,200,26408,22.7,0
+java,1025,float64,1,benchmark,OK,3,5,1,200,96076,86.668,0

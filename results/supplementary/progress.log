@@ -1,0 +1,16 @@
+[n=500] c: OK, peak RSS 7628 KiB, wall 2.1s
+[n=500] java: OK, peak RSS 55592 KiB, wall 3.6s
+[n=511] c: OK, peak RSS 7892 KiB, wall 2.2s
+[n=511] java: OK, peak RSS 56240 KiB, wall 3.6s
+[n=512] c: OK, peak RSS 7912 KiB, wall 4.2s
+[n=512] java: OK, peak RSS 56244 KiB, wall 3.6s
+[n=513] c: OK, peak RSS 7940 KiB, wall 1.3s
+[n=513] java: OK, peak RSS 55796 KiB, wall 2.4s
+[n=1000] c: OK, peak RSS 25220 KiB, wall 23.5s
+[n=1000] java: OK, peak RSS 88024 KiB, wall 75.3s
+[n=1023] c: OK, peak RSS 26312 KiB, wall 28.6s
+[n=1023] java: OK, peak RSS 96112 KiB, wall 88.7s
+[n=1024] c: OK, peak RSS 26360 KiB, wall 23.0s
+[n=1024] java: OK, peak RSS 96096 KiB, wall 80.6s
+[n=1025] c: OK, peak RSS 26408 KiB, wall 22.7s
+[n=1025] java: OK, peak RSS 96076 KiB, wall 86.7s

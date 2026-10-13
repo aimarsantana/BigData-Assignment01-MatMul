@@ -1,0 +1,10 @@
+/home/claude/A1/build/matmul /home/claude/A1/data/inputs/A_n513.bin /home/claude/A1/data/inputs/B_n513.bin 513 1 5 1
+INFO,c,compiler,gcc 13.3.0
+INFO,c,cflags,-O2 -std=c11 -Wall -Wextra
+SAMPLE,c,513,warmup,0,1,203294577.0,2186.5274400871408
+SAMPLE,c,513,measured,0,1,198623271.0,2186.5274400871408
+SAMPLE,c,513,measured,1,1,206936705.0,2186.5274400871408
+SAMPLE,c,513,measured,2,1,243215961.0,2186.5274400871408
+SAMPLE,c,513,measured,3,1,208894287.0,2186.5274400871408
+SAMPLE,c,513,measured,4,1,195399839.0,2186.5274400871408
+MEM,c,513,vmhwm_kib,7940

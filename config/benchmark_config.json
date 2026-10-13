@@ -1,0 +1,19 @@
+{
+  "description": "Assignment 1 benchmark configuration. All values are read by scripts/run_benchmarks.py.",
+  "sizes": [64, 128, 256, 384, 512, 768, 1024, 1536, 2048],
+  "languages": ["c", "java", "python"],
+  "numeric_type": "float64 (IEEE-754 binary64)",
+  "measured_repetitions": {"n<=512": 10, "n>512": 5},
+  "warmup_runs": {"c": 1, "java": 3, "python": 1},
+  "batch_per_sample": {"64": 20, "128": 5, "default": 1},
+  "budget": {
+    "max_seconds_per_single_multiplication": 200,
+    "stop_rule": "if a language exceeds the per-multiplication budget at size n, larger sizes are not attempted for that language",
+    "memory_budget_peak_rss_bytes": 4000000000
+  },
+  "commands": {
+    "c": ["build/matmul"],
+    "java": ["java", "-Xms64m", "-Xmx4g", "-XX:+UseSerialGC", "-cp", "build", "MatMul"],
+    "python": ["python3", "src/python/matmul.py"]
+  }
+}

@@ -1,0 +1,7 @@
+/home/claude/A1/build/matmul /home/claude/A1/data/inputs/A_n2048.bin /home/claude/A1/data/inputs/B_n2048.bin 2048 0 3 1
+INFO,c,compiler,gcc 13.3.0
+INFO,c,cflags,-O2 -std=c11 -Wall -Wextra
+SAMPLE,c,2048,measured,0,1,107577389685.0,-38237.608789220285
+SAMPLE,c,2048,measured,1,1,107682449994.0,-38237.608789220285
+SAMPLE,c,2048,measured,2,1,107118673528.0,-38237.608789220285
+MEM,c,2048,vmhwm_kib,100108

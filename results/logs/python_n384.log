@@ -1,0 +1,15 @@
+/usr/bin/python3 /home/claude/A1/src/python/matmul.py /home/claude/A1/data/inputs/A_n384.bin /home/claude/A1/data/inputs/B_n384.bin 384 1 10 1
+INFO,python,implementation,CPython
+INFO,python,version,3.13.16
+SAMPLE,python,384,warmup,0,1,7976464519.0,886.7359022522137
+SAMPLE,python,384,measured,0,1,7508975112.0,886.7359022522137
+SAMPLE,python,384,measured,1,1,7724097934.0,886.7359022522137
+SAMPLE,python,384,measured,2,1,7746490569.0,886.7359022522137
+SAMPLE,python,384,measured,3,1,7903668258.0,886.7359022522137
+SAMPLE,python,384,measured,4,1,7645980234.0,886.7359022522137
+SAMPLE,python,384,measured,5,1,7910436229.0,886.7359022522137
+SAMPLE,python,384,measured,6,1,7956365370.0,886.7359022522137
+SAMPLE,python,384,measured,7,1,8109761281.0,886.7359022522137
+SAMPLE,python,384,measured,8,1,8001583290.0,886.7359022522137
+SAMPLE,python,384,measured,9,1,8034470587.0,886.7359022522137
+MEM,python,384,vmhwm_kib,28316

@@ -1,0 +1,16 @@
+java -Xms64m -Xmx4g -XX:+UseSerialGC -cp build MatMul /home/claude/A1/data/inputs/A_n1000.bin /home/claude/A1/data/inputs/B_n1000.bin 1000 3 5 1
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=41793 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+INFO,java,version,21.0.12.1
+INFO,java,vm,OpenJDK 64-Bit Server VM 21.0.12.1+1-1-24.04.4-Ubuntu
+INFO,java,max_heap_bytes,4151836672
+SAMPLE,java,1000,warmup,0,1,9548815165.0,785.0766415637922
+SAMPLE,java,1000,warmup,1,1,9440951983.0,785.0766415637922
+SAMPLE,java,1000,warmup,2,1,8895276986.0,785.0766415637922
+SAMPLE,java,1000,measured,0,1,9630542823.0,785.0766415637922
+SAMPLE,java,1000,measured,1,1,9744381138.0,785.0766415637922
+SAMPLE,java,1000,measured,2,1,9159583796.0,785.0766415637922
+SAMPLE,java,1000,measured,3,1,9286609795.0,785.0766415637922
+SAMPLE,java,1000,measured,4,1,9368730623.0,785.0766415637922
+INFO,java,heap_used_end_bytes,26689232
+INFO,java,heap_committed_end_bytes,64880640
+MEM,java,1000,vmhwm_kib,88024

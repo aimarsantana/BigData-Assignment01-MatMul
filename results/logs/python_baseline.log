@@ -1,0 +1,4 @@
+/usr/bin/python3 /home/claude/A1/src/python/matmul.py /home/claude/A1/data/inputs/A_n64.bin /home/claude/A1/data/inputs/B_n64.bin 64 0 0 1
+INFO,python,implementation,CPython
+INFO,python,version,3.13.16
+MEM,python,64,vmhwm_kib,11056

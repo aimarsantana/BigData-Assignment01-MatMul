@@ -1,0 +1,30 @@
+[baseline] c: peak RSS 1716 KiB
+[baseline] java: peak RSS 42368 KiB
+[baseline] python: peak RSS 11056 KiB
+[n=64] c: OK, peak RSS 1840 KiB, wall 0.1s
+[n=64] java: OK, peak RSS 43696 KiB, wall 0.2s
+[n=64] python: OK, peak RSS 11344 KiB, wall 3.6s
+[n=128] c: OK, peak RSS 2144 KiB, wall 0.1s
+[n=128] java: OK, peak RSS 44328 KiB, wall 0.3s
+[n=128] python: OK, peak RSS 12812 KiB, wall 7.9s
+[n=256] c: OK, peak RSS 3304 KiB, wall 0.2s
+[n=256] java: OK, peak RSS 46740 KiB, wall 0.5s
+[n=256] python: OK, peak RSS 18620 KiB, wall 18.7s
+[n=384] c: OK, peak RSS 5224 KiB, wall 0.8s
+[n=384] java: OK, peak RSS 50684 KiB, wall 1.5s
+[n=384] python: OK, peak RSS 28316 KiB, wall 86.6s
+[n=512] c: OK, peak RSS 7916 KiB, wall 4.1s
+[n=512] java: OK, peak RSS 56512 KiB, wall 3.9s
+[n=512] python: OK, peak RSS 41776 KiB, wall 219.0s
+[n=768] c: OK, peak RSS 15604 KiB, wall 7.6s
+[n=768] java: OK, peak RSS 76676 KiB, wall 8.0s
+[n=768] python: OK, peak RSS 80468 KiB, wall 450.4s
+[n=1024] c: OK, peak RSS 26356 KiB, wall 23.7s
+[n=1024] java: OK, peak RSS 96152 KiB, wall 79.2s
+[n=1024] python: OK, peak RSS 134428 KiB, wall 924.8s
+[n=1536] c: OK, peak RSS 57092 KiB, wall 168.3s
+[n=1536] java: OK, peak RSS 136512 KiB, wall 408.6s
+[n=1536] python: TIMEOUT, peak RSS  KiB, wall 200.0s
+[n=2048] c: TIMEOUT, peak RSS  KiB, wall 200.0s
+[n=2048] java: OK, peak RSS 210300 KiB, wall 1007.4s
+[n=2048] python: not attempted (stop rule)

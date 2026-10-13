@@ -1,0 +1,4 @@
+/home/claude/A1/build/matmul /home/claude/A1/data/inputs/A_n64.bin /home/claude/A1/data/inputs/B_n64.bin 64 0 0 1
+INFO,c,compiler,gcc 13.3.0
+INFO,c,cflags,-O2 -std=c11 -Wall -Wextra
+MEM,c,64,vmhwm_kib,1716
